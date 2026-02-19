@@ -4,7 +4,7 @@
 }
 
 body {
-  margin: 1%;
+  margin: 1.5%;
   min-height: 95vh;
   background-color: darkgreen;
 
@@ -80,7 +80,8 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 1.8rem;
+  padding: 1%;
 }
 
 .transaction-card {
@@ -93,7 +94,7 @@ main {
     #ffd700 100%
   );
   height: 60vh;
-  width: 25vw;
+  width: 24vw;
   border-radius: 20px;
 
   display: flex;
@@ -112,13 +113,14 @@ main {
 
 .transaction-card img {
   width: 80%;
+  height: 80%;
   border-radius: 20px;
 }
 
 .transaction-card h2 {
   padding: 0px;
   margin: 0px;
-  color: whitesmoke;
+  color: darkgoldenrod;
   font-size: 1.8rem;
   text-transform: uppercase;
 }
