@@ -7,6 +7,8 @@ Most of my changes were made to the grid and flex layouts. A lot of my changes i
 positioning after as needed.
 As you mentioned, this process was painful, and in the future, I would absolutely design the app from a mobile first POV.
 
+Unfortunately, the Images were hard to get perfect for this assignment. I picked a janky, ai-generated image for my 3 cards, which ended up hurting my responsive design since the images do a bad job of stretching. For future webpages, I would probably design my cards from the get-go with better responsive image patterns in mind.
+
 ## Custom Breakpoints:
 
 I used tailwind breakpoints for mobile edition and tablets as my breakpoint pixel values. I found these on w3 schools, specifically the page about media queries.
@@ -16,6 +18,10 @@ Custom Breakpoint variables were tough to figure out.
 
 I think I honestly would have built this page from mobile and expanded it out to be a desktop page. Widdling it down was harder than I imagined.
 I think I will keep this mindset from now on with all pages that won't naturally just be desktop type websites/applications.
+
+Upon messing with the page by changing my viewport size with the bottom right shrinker and expander option of the mouse, I quickly found out that while my breakpoints add some
+awesome responsiveness, there are still other breakpoint gaps that need to be filled. It looks like based on the niche design of my cards and icons, I would probably need to add more specific breakpoints for more viewport sizes
+An example would be getting down into mobile, tablet, laptop, small desktop, and large desktop. This would help it out a lot more in the future.
 
 # IS 120: Homework 6 - Asher Ruiz: asherr42
 
